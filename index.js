@@ -12,8 +12,8 @@ const execAsync = promisify(exec);
 // CONFIG
 const DB_USER = 'SKYNEST';
 const DB_PASSWORD = 'SKYNEST11';
-const DISCORD_TEXT_WEBHOOK_URL = 'https://discord.com/api/webhooks/1380164234935013436/pldPJiMIjj_ItP4lqjs2wPXoZcsB2xhCqnqHhqOFxrY02kjPEcpxi8pti5eiPW3gyodf'; // Webhook teks
-const DISCORD_FILE_WEBHOOK_URL = 'https://discord.com/api/webhooks/1380031216018788402/KSRbKpI4MfyBZoxZHtd3anH119i6_G1qJzmaTBkKdWgfLPGI729m7hy6FvDs8Hj8i9mU'; // Webhook file
+const DISCORD_TEXT_WEBHOOK_URL = 'https://discord.com/api/webhooks/1376094474647638097/e3pBReJvqbDxHN9dw0vImkjldWYGslI_YkHUZrlFMqynuQBzA5JzuxBzaAfY2Flcy9cz'; // Webhook teks
+const DISCORD_FILE_WEBHOOK_URL = 'https://discord.com/api/webhooks/1376094958951600128/2EpwuoEfgteV96tLX_STJynFvjNgNJlL2mP4KkRxdQpgJXWSLMHjWD9BubitS4TfbpmB'; // Webhook file
 const backupBaseDir = path.join(__dirname, 'database');
 const excludedTables = ['performance_schema', 'information_schema', 'phpmyadmin', 'mysql', 'Database'];
 const FILE_SIZE_LIMIT_MB = 7; 
